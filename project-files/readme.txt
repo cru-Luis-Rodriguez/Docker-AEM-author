@@ -1,0 +1,1 @@
+you can put files in this directory that you want to mount as a remote volume or add to future docker images via build scripts.
