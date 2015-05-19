@@ -70,6 +70,8 @@ see: [https://docs.docker.com/installation/](https://docs.docker.com/installatio
 ### create hosts file entry:
 	echo $(boot2docker ip 2> /dev/null) dockerhost | sudo tee -a /etc/hosts
 
-### adjust VirtualBox settings if needed (`boot2docker stop` first), like Memory and Processors
+#### adjust VirtualBox settings if needed, e.g., Memory and Processors
+
+(run `boot2docker stop` first)
 
 #### start at the top of this page to install AEM
